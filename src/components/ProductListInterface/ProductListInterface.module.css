@@ -1,0 +1,72 @@
+.productListInterface {
+    background-color: azure;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.newProductBtn {
+    padding: 12px;
+    background-color: green;
+    font-size: 24px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.productListInterfaceWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.filters {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+}
+.filtersDropdown {
+    padding: 12px 0;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    position: relative;
+    max-width: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+.dropDownWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.dropDownWrapper button {
+    padding: 12px 0;
+    max-width: 200px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid palevioletred;
+    cursor: pointer;
+}
+
+.dropDownWrapper button:first-child {
+    border-radius: 10px 10px 0 0;
+    background-color: palevioletred;
+}
+.dropDownWrapper button:last-child {
+    background-color: palevioletred;
+    border-radius: 0 0 10px 10px;
+}
+.dropDownWrapper button:hover {
+    background-color: white;
+    color: palevioletred;
+}
+
+@media (max-width: 567px) {
+    .productListInterfaceWrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

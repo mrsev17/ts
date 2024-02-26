@@ -1,0 +1,41 @@
+.modalDelete {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalDeleteWrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modalDeleteWrapper span {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.deleteBtnsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.deleteBtnsWrapper button {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.deleteBtnsWrapper button:first-child {
+    background-color: brown;
+}
+.deleteBtnsWrapper button:last-child {
+    background-color: green;
+}

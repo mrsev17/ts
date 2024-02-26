@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1",
+        "imageUrl": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
+        "name": "Fujifilm X-T10",
+        "count": 7,
+        "size": {
+            "width": 200,
+            "height": 200
+        },
+        "weight": "777g",
+        "comments": [
+            {
+                "id": "1",
+                "productId": "1",
+                "description": "Nice Fujifilm!",
+                "date": "19:00 26.02.2024"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "imageUrl": "https://hotline.ua/img/tx/440/4408407735.jpg",
+        "name": "Razer Blade",
+        "count": 5,
+        "size": {
+            "width": 200,
+            "height": 200
+        },
+        "weight": "1200g",
+        "comments": [
+            {
+                "id": "1",
+                "productId": "2",
+                "description": "Nice Razer!",
+                "date": "19:00 26.02.2024"
+            },
+            {
+                "id": "2",
+                "productId": "2",
+                "description": "Cool Product",
+                "date": "19:00 26.02.2024"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "imageUrl": "https://up2date.com.ua/image/catalog/easyphoto/6625/81fe2he8npl-ac-sl1500-jpg_1.jpg",
+        "name": "Zelda ToTK",
+        "count": 10,
+        "size": {
+            "width": 200,
+            "height": 200
+        },
+        "weight": "100g",
+        "comments": [
+            {
+                "id": "1",
+                "productId": "2",
+                "description": "Nice Game!",
+                "date": "19:00 26.02.2024"
+            },
+            {
+                "id": "2",
+                "productId": "2",
+                "description": "Cool Product",
+                "date": "19:00 26.02.2024"
+            }
+        ]
+    }
+]

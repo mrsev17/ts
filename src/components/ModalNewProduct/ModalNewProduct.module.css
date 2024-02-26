@@ -1,0 +1,62 @@
+.modalNewProduct {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalNewProductWrapper {
+    width: 80%;
+    padding: 20px;
+    background-color: #4f3b78 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.modalNewProductWrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modalNewProductWrapper form label {
+    font-size: 24px;
+    color: whitesmoke;
+}
+.modalNewProductWrapper form input {
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.modalNewProductWrapper form input::placeholder {
+    font-size: 24px;
+}
+.newProductBtnsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.newProductBtnsWrapper button {
+    padding: 12px 0;
+    font-size: 20px;
+    border-radius: 8px;
+    max-width: 280px;
+    width: 100%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.newProductBtnsWrapper button:first-child {
+    background-color: green;
+}
+.newProductBtnsWrapper button:last-child {
+    background-color: brown;
+}

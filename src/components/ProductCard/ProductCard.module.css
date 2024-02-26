@@ -1,0 +1,33 @@
+.productCard {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+.productCardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px;
+}
+.productCardWrapper img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.productCardWrapper h2 {
+    text-align: center;
+}
+.productCardWrapper span {
+    display: block;
+    text-align: center;
+}
+.deleteBtn {
+    font-size: 20px;
+    padding: 8px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
